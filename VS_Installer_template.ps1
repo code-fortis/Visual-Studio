@@ -113,7 +113,7 @@ function runPreCheck {
 }
 
 function ToAudit {
-    $Url = "http://xcoengvm229208:3000/vs/ver/$Version/user/$Username/site/$Site/host/$Hostname/ip/$IP`?action=register"
+    $Url = "http://<AUDIT_API_SERVER>:<PORT>/vs/ver/$Version/user/$Username/site/$Site/host/$Hostname/ip/$IP`?action=register"
     $result = Invoke-RestMethod -Uri $Url -Method Post;
 }
 
