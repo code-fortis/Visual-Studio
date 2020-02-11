@@ -1,7 +1,7 @@
 # Visual Studio - User Installation
 
 ## Introduction
-This page documents the process to install Visual Studio via the powershell script [Template]() provided.
+This page documents the process to install Visual Studio via the powershell script [Template](VS_Installer_template.ps1) provided.
 
 ## Platform compatibility and system requirements
 ### Operting systems
