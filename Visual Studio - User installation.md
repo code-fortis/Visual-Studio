@@ -19,6 +19,7 @@ This page documents the process to install Visual Studio via the powershell scri
 
 ## Uninstall existing Visual Studio
 Before we begin installing the enterprise version and enable official license, make sure any trial version or RC version are uninstalled
+
 __Method 1:__ Use the unistaller
 Generally, the standard uninstall procedure should work as expected, so definitely try this before moving on to method 2/3.
 
