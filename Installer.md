@@ -35,3 +35,11 @@ Line 29
 << $global:InstallerPath = "\\<NFS_PATH>\VS$Version\$Installer"
 >> $global:InstallerPath = "\\ogrcifs.domain.com\VisualStudio\\VS$Version\$Installer"
 ```
+
+### Change  Audit API Host (<AUDIT_API_HOST>:<PORT>)
+```
+# Sample change
+Line 116
+<< $Url = "http://<AUDIT_API_SERVER>:<PORT>/vs/ver/$Version/user/$Username/site/$Site/host/$Hostname/ip/$IP`?action=register"
+>> $Url = "http://audit.domaind.com:3000/vs/ver/$Version/user/$Username/site/$Site/host/$Hostname/ip/$IP`?action=register"
+```
